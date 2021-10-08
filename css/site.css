@@ -1,0 +1,64 @@
+:root {
+    --primary-color: #024561;
+    --secondary-color: #1cd4c8;
+    --dark-color: #021f31;
+    --white-color: #dfe3e4;
+}
+
+body {
+    background-color: #021f31;
+    color: var(--white-color);
+}
+
+main>.container {
+    padding: 60px 15px 0;
+}
+
+#content {
+    min-height: 90vh;
+}
+
+nav {
+    background-color: var(--dark-color);
+}
+
+.footer {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+
+footer .social>a {
+    color: var(--white-color);
+}
+
+footer .social>a:hover {
+    opacity: .9;
+    color: var(--secondary-color);
+}
+
+.jsicon {
+    color: rgb(266, 211, 4);
+}
+
+.bsicon {
+    color: purple;
+}
+
+.html5icon {
+    color: orangered;
+}
+
+.css3icon {
+    color: rgb(11, 82, 214);
+}
+
+.checklist>li i {
+    color: var(--secondary-color);
+}
+
+.sticky-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
